@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = mocha;
+const palette = macchiato;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Golden",
+    location: "London",
     scale: "C",
   },
   clock: {
@@ -16,8 +16,8 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "work",
-      background_url: "src/img/banners/cbg-6.gif",
+      name: "myself",
+      background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
           name: "bookmarks",
@@ -40,34 +40,64 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "mail",
-              url: "https://mail.proton.me/u/0/inbox",
-              icon: "mail",
+              name: "gmail",
+              url: "https://mail.google.com",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "docs",
-              url: "https://docs.google.com/",
-              icon: "file-description",
+              name: "calendar",
+              url: "https://calendar.google.com",
+              icon: "calendar-filled",
               icon_color: palette.peach,
             },
             {
-              name: "office",
-              url: "https://www.office.com/?auth=2",
-              icon: "brand-office",
+              name: "sheets",
+              url: "https://docs.google.com/spreadsheets",
+              icon: "table",
               icon_color: palette.red,
+            },
+            {
+              name: "drive",
+              url: "https://drive.google.com/drive/home",
+              icon: "brand-google-drive",
+              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "tools",
+          name: "media",
           links: [
             {
-              name: "chatgpt",
-              url: "https://chatgpt.com/",
-              icon: "brain",
+              name: "уп",
+              url: "https://www.pravda.com.ua",
+              icon: "news",
               icon_color: palette.green,
-            {,
+            },
+            {
+              name: "mil.in.ua",
+              url: "https://mil.in.ua",
+              icon: "badge-filled",
+              icon_color: palette.peach,
+            },
+            {
+              name: "куток",
+              url: "https://kutok.io",
+              icon: "border-radius",
+              icon_color: palette.red,
+            },
+            {
+              name: "ґрунт",
+              url: "https://grnt.media",
+              icon: "eye-bolt",
+              icon_color: palette.blue,
+            },
+            {
+              name: "village",
+              url: "https://www.village.com.ua",
+              icon: "home-2",
+              icon_color: palette.mauve,
+            },
           ],
         },
       ],
@@ -161,25 +191,66 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "music",
+          name: "social medias",
           links: [
             {
-              name: "spotify",
-              url: "https://open.spotify.com/",
-              icon: "brand-spotify",
+              name: "telegram",
+              url: "https://web.telegram.org",
+              icon: "brand-telegram",
               icon_color: palette.green,
-            {,
-          {,
-        {,
+            },
+            {
+              name: "facebook",
+              url: "https://www.facebook.com",
+              icon: "brand-facebook",
+              icon_color: palette.peach,
+            },
+            {
+              name: "reddit",
+              url: "https://www.reddit.com/r/unixporn",
+              icon: "brand-reddit",
+              icon_color: palette.red,
+            },
+          ],
+        },
+        {
+          name: "games",
+          links: [
+            {
+              name: "IGN",
+              url: "https://www.ign.com/account/playlist/library",
+              icon: "device-gamepad",
+              icon_color: palette.green,
+            },
+            {
+              name: "steam",
+              url: "https://store.steampowered.com",
+              icon: "brand-steam",
+              icon_color: palette.peach,
+            },
+            {
+              name: "epicgames",
+              url: "https://store.epicgames.com",
+              icon: "brand-fortnite",
+              icon_color: palette.red,
+            },
+            {
+              name: "nintendo",
+              url: "https://store.nintendo.co.uk",
+              icon: "device-nintendo",
+              icon_color: palette.blue,
+            },
+          ],
+        },
         {
           name: "video",
           links: [
             {
-              name: "9anime",
-              url: "https://9animetv.to/",
+              name: "anilist",
+              url: "https://anilist.co/home",
               icon: "brand-funimation",
               icon_color: palette.green,
             },
@@ -189,13 +260,18 @@ const default_config = {
               icon: "brand-youtube",
               icon_color: palette.peach,
             },
-          {,
-        {,
-        {
-          name: "other",
-          links: [
-          {,
-        {,
+            {
+              name: "patreon",
+              url: "https://www.patreon.com",
+              icon: "brand-patreon",
+              icon_color: palette.red,
+            },
+            {
+              name: "kyivstar",
+              url: "https://tv.kyivstar.ua",
+              icon: "star-filled",
+              icon_color: palette.blue,
+            },
           ],
         },
       ],
