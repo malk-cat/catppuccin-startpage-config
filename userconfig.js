@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Golden",
     scale: "C",
   },
   clock: {
@@ -12,90 +12,54 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://github.com/demon-alt",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "work",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "other",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "mail",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "mail",
               icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "writing",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "docs",
+              url: "https://docs.google.com/",
+              icon: "file-description",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "office",
+              url: "https://www.office.com/?auth=2",
+              icon: "brand-office",
               icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "media",
+          name: "tools",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "brain",
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "gptzero",
+              url: "https://gptzero.me/",
+              icon: "zoom-check",
               icon_color: palette.mauve,
             },
           ],
@@ -116,15 +80,15 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "neo",
+              url: "https://www.whiterabbitneo.com",
+              icon: "carrot",
               icon_color: palette.peach,
             },
             {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
+              name: "stackoverflow",
+              url: "https://stackoverflow.com",
+              icon: "brand-stackoverflow",
               icon_color: palette.red,
             },
           ],
@@ -133,28 +97,16 @@ const default_config = {
           name: "challenges",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "rootme",
+              url: "https://www.root-me.org/en/Challenges/",
+              icon: "skull",
               icon_color: palette.blue,
+            },
+            {
+              name: "hackerrank",
+              url: "https://www.hackerrank.com/",
+              icon: "code-dots",
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -191,7 +143,7 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-2.gif",
       categories: [
         {
           name: "social medias",
