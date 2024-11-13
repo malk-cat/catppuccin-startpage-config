@@ -4,7 +4,7 @@ const palette = mocha;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Golden",
+    location: "Golden BC",
     scale: "C",
   },
   clock: {
@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "work",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/cbg-16.gif",
       categories: [
         {
           name: "other",
@@ -51,15 +51,15 @@ const default_config = {
           name: "tools",
           links: [
             {
-              name: "chatgpt",
-              url: "https://chatgpt.com",
-              icon: "brain",
-              icon_color: palette.blue,
-            },
-            {
               name: "gptzero",
               url: "https://gptzero.me/",
               icon: "zoom-check",
+              icon_color: palette.blue,
+            },
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "brain",
               icon_color: palette.mauve,
             },
           ],
@@ -68,7 +68,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      background_url: "src/img/banners/cbg-19.gif",
       categories: [
         {
           name: "resources",
@@ -79,17 +79,12 @@ const default_config = {
               icon: "brand-github",
               icon_color: palette.green,
             },
-            {
-              name: "neo",
-              url: "https://www.whiterabbitneo.com",
-              icon: "carrot",
-              icon_color: palette.peach,
-            },
+
             {
               name: "stackoverflow",
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
           ],
         },
@@ -100,41 +95,29 @@ const default_config = {
               name: "rootme",
               url: "https://www.root-me.org/en/Challenges/",
               icon: "skull",
-              icon_color: palette.blue,
+              icon_color: palette.red,
             },
             {
               name: "hackerrank",
               url: "https://www.hackerrank.com/",
               icon: "code-dots",
-              icon_color: palette.mauve,
+              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "blogs",
+          name: "tools",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
+              name: "neo",
+              url: "https://www.whiterabbitneo.com",
+              icon: "carrot",
+              icon_color: palette.mauve,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "brain",
               icon_color: palette.blue,
             },
           ],
@@ -143,57 +126,16 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
-          name: "social medias",
+          name: "music",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "spotify",
+              url: "https://open.spotify.com/",
+              icon: "brand-spotify",
               icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "games",
-          links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -201,8 +143,8 @@ const default_config = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
+              name: "9anime",
+              url: "https://9animetv.to/",
               icon: "brand-funimation",
               icon_color: palette.green,
             },
@@ -213,17 +155,11 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "zeochip",
+              url: "https://www3.zeochip.com",
+              icon: "movie",
               icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
-            },
+            }
           ],
         },
       ],
