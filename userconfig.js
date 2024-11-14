@@ -161,8 +161,8 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "zeochip",
-              url: "https://www3.zeochip.com",
+              name: "zoechip",
+              url: "https://www3.zoechip.com",
               icon: "movie",
               icon_color: palette.red,
             }
