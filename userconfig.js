@@ -151,7 +151,7 @@ const default_config = {
             {
               name: "shogi",
               url: "https://www.pychess.org/sf2bzINr",
-              icon: "rectangle-vertical",
+              icon: "military-rank",
               icon_color: palette.peach,
             },
           ],
