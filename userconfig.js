@@ -146,25 +146,36 @@ const default_config = {
           ],
         },
         {
+          name: "games",
+          links: [
+            {
+              name: "shogi",
+              url: "https://www.pychess.org/sf2bzINr",
+              icon: "rectangle-vertical",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
           name: "video",
           links: [
             {
               name: "9anime",
               url: "https://9animetv.to/",
               icon: "brand-funimation",
-              icon_color: palette.green,
+              icon_color: palette.red,
             },
             {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
             {
               name: "zoechip",
               url: "https://www3.zoechip.com",
               icon: "movie",
-              icon_color: palette.red,
+              icon_color: palette.mauve,
             }
           ],
         },
