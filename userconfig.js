@@ -150,7 +150,7 @@ const default_config = {
           links: [
             {
               name: "shogi",
-              url: "https://www.pychess.org/sf2bzINr",
+              url: "https://www.pychess.org/puzzle/shogi",
               icon: "military-rank",
               icon_color: palette.peach,
             },
