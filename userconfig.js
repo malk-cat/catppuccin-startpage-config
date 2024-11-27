@@ -158,7 +158,7 @@ const default_config = {
               name: "poker",
               url: "https://www.casino.org/replaypoker",
               icon: "cards",
-              icon_coror: palette.red,
+              icon_color: palette.red,
             },
           ],
         },
