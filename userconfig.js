@@ -154,6 +154,12 @@ const default_config = {
               icon: "military-rank",
               icon_color: palette.peach,
             },
+            {
+              name: "poker",
+              url: "https://www.casino.org/replaypoker",
+              icon: "cards",
+              icon_coror: palette.red,
+            },
           ],
         },
         {
