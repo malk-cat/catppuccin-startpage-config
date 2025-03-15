@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://github.com/demon-alt",
+  fastlink: "https://github.com/malk-cat",
   openLastVisitedTab: true,
   tabs: [
     {
