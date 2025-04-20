@@ -160,6 +160,12 @@ const default_config = {
               icon: "cards",
               icon_color: palette.red,
             },
+            {
+              name: "chess",
+              url: "https://www.chess.com/home",
+              icon: "chess-knight",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
